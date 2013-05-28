@@ -1,0 +1,33 @@
+body {
+    background: #333 url(bg_green.png);
+    color: #333;
+    font-family: arial;
+    font-size: 1em;
+    line-height: 1.4em;
+    margin: 0 auto;
+}
+
+.wrap {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #000000;
+    margin: 20px auto;
+    padding: 0 50px 40px;
+    width: 42%;
+    min-width: 700px;
+}
+
+h1 {
+    margin: 40px 20px 20px;
+}
+
+h2 {
+    border-bottom: 1px dashed #555555;
+    padding: 15px 5px 4px 7px;
+}
+
+p {
+    margin-top: 1.1em;
+    margin-bottom: 1.1em;
+}

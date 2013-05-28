@@ -1,0 +1,8 @@
+First project only for test purposes; it`s implements a simple online notepad on Node.js.
+
+---Instructions---
+1. Install Node.js
+2. Make 'npm install express' in the Node.js shell
+3. Copy notepad.js, data.txt and css dir to the Node.js folder
+4. Type 'node notepad.js' in the Node.js shell
+5. Open the localhost in your browser.
