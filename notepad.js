@@ -31,7 +31,7 @@ app.get('/style.css', function (req, res) {
 	fs.open("css/style.css", "r", 0664, function (err, file_handle) {
 		if(!err){
 			fs.read(file_handle, 10000, null, "utf-8", function (err, data) {
-				console.log(req.params.file);
+				//console.log(req.params.file);
 				res.end(data);
 				fs.close(file_handle);
 			});
